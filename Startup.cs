@@ -21,6 +21,7 @@ namespace WebApplication1
             Configuration = configuration;
         }
 
+
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -29,6 +30,8 @@ namespace WebApplication1
             services.AddControllers().AddNewtonsoftJson();
             services.AddControllers();
             services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DatabaseContext")));
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,15 +41,19 @@ namespace WebApplication1
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            //app.UseMvc();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
+         
         }
     }
 }

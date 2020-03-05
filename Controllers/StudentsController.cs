@@ -27,10 +27,12 @@ namespace WebApplication1.Controllers
             return await _context.Student.ToListAsync();
         }
 
+
         // GET: api/Students/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Student>> GetStudent(int id)
         {
+
             var student = await _context.Student.FindAsync(id);
 
             if (student == null)
