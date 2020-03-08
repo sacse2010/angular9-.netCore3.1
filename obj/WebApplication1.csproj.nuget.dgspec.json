@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\testApp\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\sa\\Documents\\vou\\angular9-.netCore3.1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\testApp\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\sa\\Documents\\vou\\angular9-.netCore3.1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\testApp\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\sa\\Documents\\vou\\angular9-.netCore3.1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\testApp\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\60122\\.nuget\\packages\\",
-        "outputPath": "D:\\testApp\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\sa\\Documents\\vou\\angular9-.netCore3.1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\sa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sa\\Documents\\vou\\angular9-.netCore3.1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\60122\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

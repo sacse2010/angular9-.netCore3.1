@@ -23,6 +23,7 @@ namespace WebApplication1.Controllers
         }
 
         // GET: api/Students
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Student>>> GetStudent()
         {
