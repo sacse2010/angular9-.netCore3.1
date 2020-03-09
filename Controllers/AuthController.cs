@@ -27,7 +27,7 @@ namespace WebApplication1.Controllers
             _config = config;
             _reop = reop;
         }
-        
+
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
@@ -76,9 +76,13 @@ namespace WebApplication1.Controllers
 
             var token = tokenHandler.CreateToken(tokenDescription);
 
-            return Ok(new { 
+            return Ok(new
+            {
                 token = tokenHandler.WriteToken(token)
             });
+
+
+
         }
 
     }
