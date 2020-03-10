@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Controllers
+﻿namespace DatingApp.API.Controllers
 {
     public class Test
     {

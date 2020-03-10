@@ -15,11 +15,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
-using WebApplication1.Data;
-using WebApplication1.Helpers;
-using WebApplication1.Model;
+using DatingApp.API.Data;
+using DatingApp.API.Helpers;
+using DatingApp.API.Model;
+using AutoMapper;
 
-namespace WebApplication1
+namespace DatingApp.API
 {
     public class Startup
     {
@@ -36,10 +37,15 @@ namespace WebApplication1
         {
             services.AddControllers().AddNewtonsoftJson();
             services.AddControllers();
-            services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DatabaseContext")));
+            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DataContext")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddMvc().AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
             services.AddCors();
+            services.AddAutoMapper(typeof(DatingRepository).Assembly);
             services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<IDatingRepository, DatingRepository>();
+
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {

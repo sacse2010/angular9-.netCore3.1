@@ -9,11 +9,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using WebApplication1.Data;
-using WebApplication1.Dtos;
-using WebApplication1.Model;
+using DatingApp.API.Data;
+using DatingApp.API.Dtos;
+using DatingApp.API.Model;
 
-namespace WebApplication1.Controllers
+namespace DatingApp.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

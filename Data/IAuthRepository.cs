@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication1.Model;
+using DatingApp.API.Model;
 
-namespace WebApplication1.Data
+namespace DatingApp.API.Data
 {
    public interface IAuthRepository
     {

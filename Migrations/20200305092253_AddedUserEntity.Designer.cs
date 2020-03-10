@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApplication1.Model;
+using DatingApp.API.Model;
 
-namespace WebApplication1.Migrations
+namespace DatingApp.API.Migrations
 {
-    [DbContext(typeof(DatabaseContext))]
+    [DbContext(typeof(DataContext))]
     [Migration("20200305092253_AddedUserEntity")]
     partial class AddedUserEntity
     {
@@ -21,7 +21,7 @@ namespace WebApplication1.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("WebApplication1.Model.Student", b =>
+            modelBuilder.Entity("DatingApp.API.Model.Student", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -48,7 +48,7 @@ namespace WebApplication1.Migrations
                     b.ToTable("Student");
                 });
 
-            modelBuilder.Entity("WebApplication1.Model.User", b =>
+            modelBuilder.Entity("DatingApp.API.Model.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApplication1.Model
+namespace DatingApp.API.Model
 {
-    public class DatabaseContext:DbContext
+    public class DataContext:DbContext
     {
-        public DatabaseContext(DbContextOptions options): base(options)
+        public DataContext(DbContextOptions options): base(options)
         {
 
         }

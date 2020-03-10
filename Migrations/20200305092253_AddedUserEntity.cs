@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WebApplication1.Migrations
+namespace DatingApp.API.Migrations
 {
     public partial class AddedUserEntity : Migration
     {
