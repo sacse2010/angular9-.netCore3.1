@@ -301,7 +301,6 @@ D:\testApp\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlit
 D:\testApp\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\testApp\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\testApp\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\testApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.csprojAssemblyReference.cache
 D:\testApp\DatingApp.API\obj\Debug\netcoreapp3.1\staticwebassets\DatingApp.API.StaticWebAssets.Manifest.cache
 D:\testApp\DatingApp.API\obj\Debug\netcoreapp3.1\staticwebassets\DatingApp.API.StaticWebAssets.xml
 D:\testApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.AssemblyInfoInputs.cache
@@ -313,7 +312,6 @@ D:\testApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.pdb
 D:\testApp\DatingApp.API\bin\Debug\netcoreapp3.1\Data\UserSeedData.json
 D:\testApp\DatingApp.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\testApp\DatingApp.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\testApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\sa\Documents\vou\DatingApp.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\sa\Documents\vou\DatingApp.API\bin\Debug\netcoreapp3.1\Data\UserSeedData.json
 C:\Users\sa\Documents\vou\DatingApp.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -473,3 +471,5 @@ C:\Users\sa\Documents\vou\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.Ra
 C:\Users\sa\Documents\vou\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.csproj.CopyComplete
 C:\Users\sa\Documents\vou\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.dll
 C:\Users\sa\Documents\vou\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.pdb
+D:\testApp\DatingApp.API\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+D:\testApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.MvcApplicationPartsAssemblyInfo.cache
