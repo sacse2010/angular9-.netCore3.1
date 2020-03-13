@@ -461,7 +461,6 @@ C:\Users\sa\Documents\vou\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\win-x86
 C:\Users\sa\Documents\vou\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\sa\Documents\vou\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\sa\Documents\vou\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\sa\Documents\vou\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.csprojAssemblyReference.cache
 C:\Users\sa\Documents\vou\DatingApp.API\obj\Debug\netcoreapp3.1\staticwebassets\DatingApp.API.StaticWebAssets.Manifest.cache
 C:\Users\sa\Documents\vou\DatingApp.API\obj\Debug\netcoreapp3.1\staticwebassets\DatingApp.API.StaticWebAssets.xml
 C:\Users\sa\Documents\vou\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.MvcApplicationPartsAssemblyInfo.cache
@@ -473,3 +472,4 @@ C:\Users\sa\Documents\vou\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.dl
 C:\Users\sa\Documents\vou\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.pdb
 D:\testApp\DatingApp.API\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
 D:\testApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sa\Documents\vou\DatingApp.API\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
